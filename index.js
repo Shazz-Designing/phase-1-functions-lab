@@ -3,4 +3,8 @@ function distanceFromHqInBlocks(pickupLocation) {
   }
   
 
+function distanceFromHqInFeet(pickupLocation) {
+  const blocks = distanceFromHqInBlocks(pickupLocation);
+  return blocks * 264;
+}
 
